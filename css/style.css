@@ -259,4 +259,136 @@
     align-items: center;
     row-gap: 56px;
 }
+.newsletter_form{
+    width: 30%;
+    display: flex;
+}
+.newsletter_input{
+    width: 100%;
+    padding: 19px;
+    border-radius: 10px 0 0 10px;
+    border: 1px solid #FFF;
+    border-right: none;
+    background-color: transparent;
+}
+.newsletter_form::placeholder{
+    border: none;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.newsletter_email_button{
+    color: #402101;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+    padding: 21px;
+    background-color: #FFF;
+    text-align: center;
+    border-radius: 0 10px 10px 0 ;
+}
 /* section - newsletter */
+
+/* section - q&a */
+.questions_section{
+    padding: 160px 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+}
+.questions_section_header{
+    margin-bottom: 16px;
+    color: #402101;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.info_div{
+    margin-bottom: 112px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.questions_div{
+    width: 28%;
+    padding: 15px;
+    border-radius: 8px;
+    background: rgba(213, 144, 110, 0.30);
+}
+.questions_header{
+    margin-bottom: 24px;
+    color: #B53B1B;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.questions_text{
+    color: #402101;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.questions_section_header2{
+    margin-bottom: 12px;
+    color: #402101;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.questions_button{
+    padding: 14px 52px 13px 52px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+    border-radius: 10px;
+    background-color: #B53B1B;
+}
+/* section - q&a */
+/* footer */
+.main_footer{
+    padding: 32px 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #402101;
+}
+.icon_footer{
+    
+
+}
+.icon_footer_header{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.footer_text{
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+/* footer */
