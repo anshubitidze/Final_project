@@ -43,15 +43,26 @@
 }
 .signin_div{
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 16px;
 }
 .signin_text{
+    border: none;
+    padding: 8px;
+    background: transparent;
     color: #FFF;
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+.signin_text:hover{
+    cursor: pointer;
+    background-color: #602313;
+    border: 2px solid #D5906E ;
+    border-radius: 8px;
 }
 .fa-cart-shopping{
     color: #FFF;
@@ -109,7 +120,12 @@
     font-weight: 400;
     line-height: normal;
 }
-
+.cover_button:hover{
+    cursor: pointer;
+    background-color: #602313;
+    backdrop-filter: opacity(50%);
+    box-shadow: 5px 10px 20px #B53B1B;
+}
 /* section - cover */
 
 /* section - services */
@@ -145,7 +161,7 @@
 
 .card_caption{
     color: #B53B1B;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -222,7 +238,7 @@
 }
 .price_latest_product{
     color: #B53B1B;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -253,6 +269,7 @@
 .newsletter_section{
     height: 480px;
     background-image: url(../images/process_cover.png);
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -270,11 +287,11 @@
     border: 1px solid #FFF;
     border-right: none;
     background-color: transparent;
+    outline: none;
 }
 .newsletter_form::placeholder{
-    border: none;
     color: #FFF;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -282,7 +299,7 @@
 }
 .newsletter_email_button{
     color: #402101;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -307,7 +324,7 @@
 .questions_section_header{
     margin-bottom: 16px;
     color: #402101;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
@@ -328,7 +345,7 @@
 .questions_header{
     margin-bottom: 24px;
     color: #B53B1B;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -336,7 +353,7 @@
 }
 .questions_text{
     color: #402101;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -345,7 +362,7 @@
 .questions_section_header2{
     margin-bottom: 12px;
     color: #402101;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
@@ -354,7 +371,7 @@
 .questions_button{
     padding: 14px 52px 13px 52px;
     color: #FFF;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -390,7 +407,7 @@
 .icon_footer_header{
     margin-bottom: 16px;
     color: #FFF;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -398,7 +415,7 @@
 }
 .footer_text{
     color: #FFF;
-    font-family: Rubik;
+    font-family:'Rubik', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 300;
@@ -414,3 +431,170 @@
     row-gap: 29px;
 }
 /* footer */
+
+/* page2 - section 1 */
+.section2_cover{
+    height: 560px;
+    background-image: url(../images/page2_cover.png);
+    max-width: inherit;
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* page2 - section 1 */
+/* page 2 section - category */
+.section_category{
+    padding: 160px 8%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 61px;
+    justify-content: center;
+    align-items: center;
+}
+.category_search_div{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 59px;
+}
+.category_button{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    color: #402101;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.fa-angle-down{
+    color: #402101;
+    margin-left: 16px;
+}
+
+.search_form{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.search_input{
+    width: 100%;
+    padding: 19px;
+    border-radius: 10px 0 0 10px;
+    border: 2px solid #402101;
+    border-right: none;
+    outline: none;
+}
+.search_form::placeholder{
+    color: rgba(64, 33, 1, 0.52);
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.search_button{
+    width: 64%;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: #402101;
+    text-align: center;
+    border-radius: 0 10px 10px 0 ;
+}
+.search_button:hover{
+    background-color: #D5906E;
+    border: none;
+}
+
+/* all category */
+.all_category_div{
+    width: 89.3%;
+}
+.all_category_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 94px;
+}
+.all_category_title{
+    color: #402101;
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.all_category_sort_button{
+    padding: 3px;
+    color: #402101;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 5px;
+    border: 2px solid #B53B1B;
+    background-color: #FFF;
+}
+.fa-arrow-up{
+    margin-left: 40px;
+}
+/* card - category */
+.all_category_cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.all_category_div{
+    
+}
+.all_category_header{
+
+}
+.all_category_cards{
+
+}
+.card_div_category{
+    width: 22%;
+}
+.category_cards{
+
+}
+.category_card_img{
+    object-fit: cover;
+}
+.card_text_category{
+
+}
+.card_name{
+    margin: 24px 0 28px 0;
+    color: #B53B1B;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.card_price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #402101;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+/* page 2 section - category */
