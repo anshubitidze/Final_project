@@ -1,0 +1,39 @@
+
+@media (max-width: 1000px) {
+    .navigation{
+        width: 20%;
+        height: 160px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        top: 89px;
+        left: -30%;
+        background-color: #B53B1B;
+    }
+    .navigation_ul{
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+    }
+    .fa-bars{
+        display: block;
+    }
+    .burger_menu{
+        left: 0;
+    }
+
+    .last_item_latest{
+        display: none;
+    }
+    .price_latest_product {
+        font-size: 10px;
+        padding: 5px;
+        translate: 16px -40px;
+    }
+    .price_latest_product:hover{
+        background-color: #B53B1B ;
+        color: #FFF;
+        font-size: 12px;
+    }
+}

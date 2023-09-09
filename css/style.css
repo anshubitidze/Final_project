@@ -16,9 +16,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
-
+    z-index: 10;
 }
+.fa-bars, .fa-xmark{
+    font-size: 32px;
+    color: #FFF;
+    display: none;
+}
+
 .active, .no_active{
     font-family: 'Inter', sans-serif;
     font-size: 18px;
@@ -33,6 +38,7 @@
 .no_active{
     color: #FFF;
 }
+
 .navigation{
     width: 25.6%;
 
@@ -80,7 +86,7 @@
     align-items: center;
 }
 .cover_div{
-    width: 751px;
+    width: 40%;
     height: 249px;
     flex-shrink: 0;
     display: flex;
@@ -89,6 +95,7 @@
     align-items: center;
 }
 .header_h1{
+    text-align: center;
     color: #FFF;
     font-family: 'Inter', sans-serif;
     font-size: 40px;
@@ -132,7 +139,7 @@
 .services_section{
     width: 100%;
     padding: 160px 0;
-    height: 480px;
+    /* height: 480px; */
     background-color: #FFF;
     display: flex;
     justify-content: center;
