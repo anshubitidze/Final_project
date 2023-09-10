@@ -1,12 +1,9 @@
 .container{
-    max-width: 1920px;
     width: 100%;
-    margin: auto;
 }
 .main_header{
-    max-width: inherit;
-    width: inherit;
-    padding: 26px 8%;
+    width: 100%;
+    padding: 26px 100px;
     background-color: rgba(213, 144, 110, 0.52);
     backdrop-filter: blur(5px);
     position: fixed;
@@ -17,6 +14,11 @@
     justify-content: space-between;
     align-items: center;
     z-index: 10;
+}
+.div_logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .fa-bars, .fa-xmark{
     font-size: 32px;
@@ -77,8 +79,7 @@
 
 /* section - cover */
 .cover_section{
-    max-width: inherit;
-    width: inherit;
+    padding: 0 40px;
     height: 720px;
     background-image: url("../images/jug_cover.png");
     display: flex;
@@ -86,9 +87,8 @@
     align-items: center;
 }
 .cover_div{
-    width: 40%;
-    height: 249px;
-    flex-shrink: 0;
+    width: 100%;
+    height: 250px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -104,6 +104,7 @@
     line-height: normal;
 }
 .cover_text{
+    width: 800px;
     margin-top: 16px;
     color: #FFF;
     text-align: center;
@@ -138,20 +139,29 @@
 /* section - services */
 .services_section{
     width: 100%;
-    padding: 160px 0;
-    /* height: 480px; */
+    padding: 160px 2%;
     background-color: #FFF;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    column-gap: 60px;
+    align-items: center;
+    gap: 60px;
 }
+.card_row1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
 .card{
-    width: 190px;
+    /* width: 190px; */
     height: 160px;
     display: flex;
     flex-direction: column;
     align-items: center;
     row-gap: 24px;
+    /* flex-shrink: 0; */
 }
 .card_img:hover{
     width: 200px;
@@ -182,7 +192,7 @@
 /* section - gallery */
 .gallery_section{
     padding: 96px 10%;
-    height: 922px;
+    /* height: 922px; */
     background-color: #402101;
     display: flex;
     flex-direction: column;
@@ -205,25 +215,27 @@
     height: 100%;
     width: 100%;
 }
+.gallery_leaf_plates{
+    object-position: 95%;
+}
 .gallery_img1{
     width: 100%;
     grid-area: gallery_img1;
-    object-fit: cover;
 }
 .gallery_img2{
     width: 100%;
     grid-area: gallery_img2;
 }
 .gallery_img3{
-    /* width: 100%; */
+    width: 100%;
     grid-area: gallery_img3;
 }
 .gallery_img4{
-    /* width: 100%; */
+    width: 100%;
     grid-area: gallery_img4;
 }
 .gallery_img5{
-    /* width: 100%; */
+    width: 100%;
     grid-area: gallery_img5;
 }
 
@@ -231,7 +243,7 @@
 
 /* section - latest Products */
 .latest_Products_section{
-    padding: 160px 1% ;
+    padding: 160px 50px ;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -245,17 +257,30 @@
 .latest_Products_div{
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: space-evenly;
     align-items: center;
+    padding: 0 20px;
 }
 .latest_img_container{
-    width: 22%;
+    width: 300px;
+    position: relative;
+}
+.div_item_latest{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px ;
+
 }
 .latest_img{
     width: 100%;
     height: 100%;
     object-fit: cover;
-    position: relative;
+    
 }
 .price_latest_product{
     color: #B53B1B;
@@ -266,10 +291,11 @@
     line-height: normal;
     background-color: white;
     border-radius: 20px;
-    padding: 1%;
-    /* padding: 15px 17px 14px 17px; */
+    padding: 15px 17px 14px 17px;
     position: absolute;
-    translate: 16px -60px;
+    bottom: 10px;
+    left: 10px;
+    /* translate: 16px -60px; */
 }
 .price_latest_product:hover{
     background-color: #B53B1B ;
@@ -278,14 +304,35 @@
 
 }
 .fa-angle-right, .fa-angle-left {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #FFF;
-    font-size: 44px;
+    font-size: 26px;
     width: 44px;
     height: 44px;
     background-color: #B53B1B;
-    border-radius: 2px;
+    border-radius: 4px;
 }
+.view_more_button{
+    margin-top: 32px;
+    display: none;
+    color: #FFF;
+    font-family:'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 10px;
+    background-color: #B53B1B;
+    padding: 15px 32px 14px 31px;
+    border: none;
+}
+.view_more_button:hover{
+    cursor: pointer;
+    background-color: #a93b20;
+}
+
 /* section - latest Products */
 /* section - newsletter */
 .newsletter_section{
@@ -299,7 +346,7 @@
     row-gap: 56px;
 }
 .newsletter_form{
-    width: 30%;
+    /* width: 30%; */
     display: flex;
 }
 .newsletter_input{
@@ -337,7 +384,7 @@
 
 /* section - q&a */
 .questions_section{
-    padding: 160px 10%;
+    padding: 160px 50px;
     display: flex;
     flex-direction: column;
     justify-content:center ;
@@ -356,10 +403,11 @@
     margin-bottom: 112px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: stretch;
+    gap: 30px;
 }
 .questions_div{
-    width: 28%;
+    width: 100%;
     padding: 15px;
     border-radius: 8px;
     background: rgba(213, 144, 110, 0.30);
@@ -417,7 +465,7 @@
 /* section - q&a */
 /* footer */
 .main_footer{
-    padding: 32px 15%;
+    padding: 32px 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -648,13 +696,15 @@
 /* page 3 section - form */
 
 .input_section_page3{
-    padding: 200px 8%;
+    padding: 200px 100px;
     height: 720px;
+    background-size: cover;
     background-image: url(../images/page3_cover.png);
     
 }
+
 .page3_form{
-    width: 35%;
+    max-width: 500px;
     padding: 24px 30px;
     border-radius: 10px;
     border: 1px solid #FFF;
@@ -673,7 +723,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    column-gap: 60px;
+    /* column-gap: 60px; */
 }
 .input_name, .input_email{
     width: 47%;

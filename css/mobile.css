@@ -1,7 +1,42 @@
+@media (max-width: 868px){
+    .main_header{
+        padding: 26px 40px;
+    }
+    .latest_Products_section {
+        padding: 60px 0;
+    }
+    .newsletter_section {
+        height: 280px;
+    }
+    .questions_section {
+        padding: 60px ;
+    }
+    .main_footer{
+        text-align: center;
+        flex-direction: column;
+        row-gap: 60px;
+    }
 
-@media (max-width: 700px) {
+}
+
+
+
+@media (max-width: 768px) {
+    .wrap_on_mobile{
+        flex-wrap: wrap;
+    }
     .services_section{
         flex-direction: column;
         row-gap: 60px;
+    }
+    .gallery_div{
+        flex-direction: column;
+    }
+    .info_div{
+        text-align: center;
+        flex-direction: column;
+    }
+    .questions_section_header2 {
+        text-align: center;
     }
 }

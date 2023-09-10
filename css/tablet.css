@@ -1,5 +1,23 @@
+@media (max-width: 1200px){
+    .last_item_latest{
+        display: none;
+    }
+    .fa-angle-right, .fa-angle-left{
+        display: none;
+    }
+    .view_more_button{
+        display: block;
+    }
+    .latest_Products_div{
+        flex-direction: column;
+        padding: 0 10px;
+    }
+    
+    
+}
 
-@media (max-width: 1000px) {
+
+@media (max-width: 992px) {
     .navigation{
         width: 20%;
         height: 160px;
@@ -22,18 +40,27 @@
     .burger_menu{
         left: 0;
     }
+    .cover_text{
+        width: auto;
+    }
 
-    .last_item_latest{
+/* Gallery section */
+    .gallery_section{
+        padding: 20px;
+    }
+    .gallery_img3, .gallery_img5{
         display: none;
     }
-    .price_latest_product {
-        font-size: 10px;
-        padding: 5px;
-        translate: 16px -40px;
+    .gallery_div{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        column-gap: 20px;
     }
-    .price_latest_product:hover{
-        background-color: #B53B1B ;
-        color: #FFF;
-        font-size: 12px;
+    .gallery_img1, .gallery_img2, .gallery_img4{
+        height: 240px;
     }
+/*  latest products section */
+    
 }
