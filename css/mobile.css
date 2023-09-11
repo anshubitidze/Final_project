@@ -30,14 +30,19 @@
 
 @media (max-width: 768px) {
     /* header */
+    .navigation{
+        width: 30%;
+        top: 86px;
+    }
     .wrap_on_mobile{
         flex-wrap: wrap;
+        margin: 0 15px;
     }
     .logo_img{
         width: 90px;
     }
     .fa-bars, .fa-xmark{
-        font-size: 25px;
+        font-size: 30px;
     }
     
     /* header */
@@ -127,9 +132,10 @@
     .map_div{
         width: 100%;
     }
-   
+}
 
-   
-
-
+@media (max-width: 413px){
+    .navigation{
+        top: 105px;
+    }
 }
