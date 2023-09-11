@@ -92,6 +92,9 @@
 }
 
 @media (max-width: 420px){
+    .main_footer{
+        padding: 32px 40px;
+    }
     .newsletter_input{
         padding: 10px;
     }

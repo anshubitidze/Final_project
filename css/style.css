@@ -161,7 +161,7 @@
     cursor: pointer;
     background-color: #461c11;
     backdrop-filter: opacity(50%);
-    box-shadow: 0 0 15px 5px #8e5243;
+    /* box-shadow: 0 0 15px 5px #8e5243; */
     
 }
 /* section - cover */
@@ -486,13 +486,11 @@
     border-radius: 10px;
     background-color: #B53B1B;
 }
-/* .questions_button:hover{
-    background-color: #706e6c;
-} */
+
 .questions_button:hover{
     cursor: pointer;
-    /* background-color: #B53B1B; */
-    box-shadow: 0 0 2px #B53B1B,
+    background-color: #ac7364;
+    /* box-shadow: 0 0 2px #B53B1B, */
                 0 0 4px #B53B1B,
                 0 0 5px #B53B1B,
                 0 0 10px #B53B1B;
