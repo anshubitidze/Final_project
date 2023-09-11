@@ -36,6 +36,9 @@
     .logo_img{
         width: 90px;
     }
+    .fa-bars, .fa-xmark{
+        font-size: 25px;
+    }
     
     /* header */
     /* cover section */
