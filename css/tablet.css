@@ -33,7 +33,9 @@
     .map_div{
         width: 100%;
     }
-    
+    .services_section{
+        row-gap: 90px;
+    }
 }
 
 
