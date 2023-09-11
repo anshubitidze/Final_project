@@ -16,27 +16,117 @@
         flex-direction: column;
         row-gap: 60px;
     }
+    .search_form{
+        width: 400px;
+    }
+
+    /* map */
+    
+    
 
 }
 
 
 
 @media (max-width: 768px) {
+    /* header */
     .wrap_on_mobile{
         flex-wrap: wrap;
     }
+    .logo_img{
+        width: 90px;
+    }
+    
+    /* header */
+    /* cover section */
+    .header_h1{
+        font-size: 32px;
+    }
+    /* cover section */
+    /* section - services */
     .services_section{
         flex-direction: column;
         row-gap: 60px;
     }
+    /* section - services */
+    /* gallery_section */
     .gallery_div{
         flex-direction: column;
     }
+    /* gallery_section */
+    /* questions section */
     .info_div{
         text-align: center;
         flex-direction: column;
     }
     .questions_section_header2 {
         text-align: center;
+        font-size: 32px;
     }
+
+    /* questions section */
+    
+    /* page 2 - section_category */
+    .search_form{
+        width: 300px;
+    }
+    .all_category_title{
+        font-size: 32px;
+    }
+    .section_category {
+        padding: 64px 20px;
+    }
+
+    /* page 3 */
+    .input_section_page3 {
+        padding: 200px 20px;
+    }
+
+}
+
+@media (max-width: 420px){
+    .newsletter_input{
+        padding: 10px;
+    }
+    .newsletter_input::placeholder{
+        font-size: 10px;
+    }
+    .newsletter_email_button{
+        font-size: 10px;
+    }
+
+    .questions_section_header{
+        text-align: center;
+    }
+/* section - services */
+    .card_row1{
+        gap: 20px;
+    }
+
+/* page2 - cover  */
+    .section2_cover{
+        padding: 0 10px;
+    }
+    .cover_button{
+        width: 200px;
+    }
+    .all_category_sort_button{
+        font-size: 13px;
+    }
+    .all_category_title {
+        font-size: 26px;
+    }
+   
+    /* page 3 form */
+    .input_section3_title{
+        font-size: 32px;
+    }
+    .map_div{
+        width: 100%;
+    }
+   
+
+   
+
+
 }
