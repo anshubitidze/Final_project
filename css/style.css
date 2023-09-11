@@ -25,18 +25,18 @@
     display: none;
 }
 .fa-bars:hover{
-    color: #e4956d;
+    color:  #fdad87;
 }
 .fa-xmark:hover{
-    color: #e4956d;
+    color:  #fdad87;
 }
 .fa-solid:hover{
     cursor: pointer;
-    color: #e06b4d;
+    color:  #fdad87;
 }
 .fa-envelope:hover{
     cursor: pointer;
-    color: #e06b4d;
+    color:  #fdad87;
 }
 
 .active, .no_active{
@@ -48,8 +48,7 @@
 }
 .active, .no_active:hover{
     cursor: pointer;
-    font-weight: 600;
-    color: #130e0b;
+    color:  #fdad87;
 }
 .active{
     color: #D5906E;
@@ -86,7 +85,7 @@
 }
 .signin_text:hover{
     cursor: pointer;
-    background-color: #602313;
+    background-color: #966c62;
     border: 1px solid #D5906E ;
     border-radius: 8px;
 }
@@ -162,7 +161,8 @@
     cursor: pointer;
     background-color: #461c11;
     backdrop-filter: opacity(50%);
-    box-shadow: 0 0 30px 10px #B53B1B;
+    box-shadow: 0 0 15px 5px #8e5243;
+    
 }
 /* section - cover */
 
@@ -440,6 +440,12 @@
     border-radius: 8px;
     background: rgba(213, 144, 110, 0.30);
 }
+.questions_div:hover{
+    box-shadow: 0 0 2px #B53B1B,
+                0 0 4px #B53B1B,
+                0 0 5px #B53B1B,
+                0 0 10px #B53B1B;
+}
 .questions_header{
     margin-bottom: 24px;
     color: #B53B1B;
@@ -484,10 +490,10 @@
 .questions_button:hover{
     cursor: pointer;
     /* background-color: #B53B1B; */
-    box-shadow: 0 0 5px #B53B1B,
-                0 0 20px #B53B1B,
-                0 0 60px #B53B1B,
-                0 0 150px #B53B1B;
+    box-shadow: 0 0 2px #B53B1B,
+                0 0 4px #B53B1B,
+                0 0 5px #B53B1B,
+                0 0 10px #B53B1B;
                 
 }
 /* section - q&a */
